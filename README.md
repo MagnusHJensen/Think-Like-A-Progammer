@@ -12,6 +12,11 @@ _Optionally: If not too hard of challenges, add some ML? to figure out the most 
 - [ ] Sliding tile game
 - - [ ] Starting with a 3x3
 - - [ ] Different grids that the user can choose.
+- - [ ] Add styling/animations
 - - [ ] ML/AI? Should be able to solve the puzzle the most optimal way.
 
 - [ ] Suduko
+- - [ ] How is different difficulties defined?
+- - [ ] Implement the lowest difficulty
+- - [ ] Implement the rest and make it selectable by the user.
+- - [ ] Add styling/animations.
