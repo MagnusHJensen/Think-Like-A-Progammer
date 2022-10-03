@@ -1,4 +1,4 @@
-# [Think Like a Programmer](tlap.magnusjensen.dk)
+# [Think Like a Programmer](https://tlap.magnusjensen.dk)
 
 ## Some of the goals to achieve.
 
