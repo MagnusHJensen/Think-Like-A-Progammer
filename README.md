@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5c3f4eca-6144-401b-8895-858f2ca08a96/deploy-status)](https://app.netlify.com/sites/silver-dolphin-4baacd/deploys)
+
 # [Think Like a Programmer](https://tlap.magnusjensen.dk)
 
 ## Some of the goals to achieve.
