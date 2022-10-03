@@ -3,6 +3,7 @@
 ## Some of the goals to achieve.
 
 First of this is to learn about creating a full fledged web-app in React, while reading through the book. **_Think like a Programmer_**
+
 My journey is, picking some of the challenges, and rebuilding them in react.
 
 _Optionally: If not too hard of challenges, add some ML? to figure out the most optimal way to solve it._
