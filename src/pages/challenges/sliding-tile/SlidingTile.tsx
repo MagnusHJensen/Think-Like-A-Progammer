@@ -1,4 +1,4 @@
-import { Center, Flex, SimpleGrid, Text } from "@chakra-ui/react";
+import { Flex, SimpleGrid } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
 import StatisticsDisplay from "./components/StatisticsDisplay";
 import Tile from "./components/Tile";
