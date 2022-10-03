@@ -1,10 +1,12 @@
-import { Flex } from "@chakra-ui/react";
-import { Link } from "react-router-dom";
+import { Flex, Link } from "@chakra-ui/react";
+import { Link as RLink } from "react-router-dom";
 
 export default function ChallengeList() {
   return (
     <Flex>
-      <Link to={"/challenges/sliding-tile"}>Sliding Tile</Link>
+      <Link as={RLink} to={"/challenges/sliding-tile"}>
+        Sliding Tile
+      </Link>
     </Flex>
   );
 }

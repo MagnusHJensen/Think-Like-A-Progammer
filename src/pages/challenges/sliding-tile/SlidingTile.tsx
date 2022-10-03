@@ -30,6 +30,10 @@ export default function SlidingTile() {
     tilesCopy[rowIndexEmpty][columnIndexEmpty] = tile;
     tilesCopy[rowIndex][columnIndex] = 0;
     setTiles(tilesCopy);
+
+    if (isGameWon()) {
+      console.log("You won!");
+    }
   }
 
   function isTileValid(tile: number): boolean {
@@ -64,6 +68,17 @@ export default function SlidingTile() {
     }
 
     return isValid;
+  }
+
+  function isGameWon() {
+    return (
+      JSON.stringify(tiles) ===
+      JSON.stringify([
+        [1, 2, 3],
+        [4, 5, 6],
+        [7, 8, 0],
+      ])
+    );
   }
 
   return (

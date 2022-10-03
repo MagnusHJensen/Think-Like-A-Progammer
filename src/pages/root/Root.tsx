@@ -1,5 +1,5 @@
-import { Box, Container, Flex, Text } from "@chakra-ui/react";
-import { Link, Outlet } from "react-router-dom";
+import { Box, Container, Flex, Text, Link } from "@chakra-ui/react";
+import { Link as RLink, Outlet } from "react-router-dom";
 
 export default function Root(): JSX.Element {
   return (
@@ -12,11 +12,11 @@ export default function Root(): JSX.Element {
         alignItems="center"
         justifyContent="space-between"
       >
-        <Link to={"/"}>
+        <Link as={RLink} to={"/"}>
           <Text fontSize={"2xl"}>Think Like a Programmer</Text>
         </Link>
         <Box>
-          <Link to={"/challenges"}>
+          <Link as={RLink} to={"/challenges"}>
             <Text fontSize={"xl"}>Challenges</Text>
           </Link>
         </Box>

@@ -24,6 +24,7 @@ export default function Tile({ number, isTileValid, onTileClick }: TileProps) {
       variant="ghost"
       bgColor={"#00ff2" + number}
       _hover={isTileValid ? { border: "red 1px solid" } : {}}
+      _disabled={{ bgColor: "#00ff2" + number, cursor: "not-allowed" }}
       onClick={onClick}
     >
       <Box>
