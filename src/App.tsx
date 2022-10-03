@@ -17,7 +17,7 @@ function App() {
           element: <ChallengeList />,
         },
         {
-          path: "challenge/sliding-tile",
+          path: "challenges/sliding-tile",
           element: <SlidingTile />,
         },
       ],
